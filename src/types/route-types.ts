@@ -1,4 +1,4 @@
-import { LayoutType, ROUTES_NAME } from '@/router/constant';
+import { LayoutType, ROUTES_NAME } from '@/constants/router';
 
 export type RouteItem = (typeof ROUTES_NAME)[keyof typeof ROUTES_NAME];
 
