@@ -3,7 +3,7 @@ import { Navigate } from 'react-router-dom';
 
 // ** Spinner Import **
 import Spinner from '@/components/spinner';
-import { ROUTES_NAME } from '@/router/constant';
+import { ROUTES_NAME } from '@/constants/router';
 // ** Reoutes Type Import **
 import { RoutesType } from '@/types/route-types';
 

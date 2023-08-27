@@ -13,6 +13,8 @@
     "^@/(.*)$",
     "^@/types/(.*)$",
     "^@/router/(.*)$",
+    "^@/store/(.*)$",
+    "^@/constants/(.*)$",
     "^@/lib/utils",
     "^@/assets/(.*)$",
     "^@/components/(.*)$",

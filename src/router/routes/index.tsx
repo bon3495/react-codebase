@@ -2,10 +2,10 @@ import { type RouteObject } from 'react-router-dom';
 
 import PrivateRoute from '@/components/routes/PrivateRoute';
 import PublicRoute from '@/components/routes/PublicRoute';
+import { LayoutType, ROUTES_NAME } from '@/constants/router';
 import BlankLayout from '@/layouts/BlankLayout';
 import HorizontalLayout from '@/layouts/HorizontalLayout';
 import VerticalLayout from '@/layouts/VerticalLayout';
-import { LayoutType, ROUTES_NAME } from '@/router/constant';
 import Authentication from '@/router/routes/Authentication';
 import Pages from '@/router/routes/Pages';
 import { GetLayout, LayoutItem, RoutesType } from '@/types/route-types';

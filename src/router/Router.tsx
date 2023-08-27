@@ -2,10 +2,10 @@ import { lazy } from 'react';
 // ** Router imports **
 import { Navigate, useRoutes } from 'react-router-dom';
 
+import { ROUTES_NAME } from '@/constants/router';
 // ** Layouts **
 import BlankLayout from '@/layouts/BlankLayout';
 import HorizontalLayout from '@/layouts/HorizontalLayout';
-import { ROUTES_NAME } from '@/router/constant';
 import { getRoutes } from '@/router/routes';
 
 // ** Components **

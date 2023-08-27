@@ -1,6 +1,6 @@
 import { lazy } from 'react';
 
-import { LayoutType, ROUTES_NAME } from '@/router/constant';
+import { LayoutType, ROUTES_NAME } from '@/constants/router';
 import { RoutesType } from '@/types/route-types';
 
 const Blog = lazy(() => import('@/containers/blog'));
